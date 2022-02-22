@@ -1,0 +1,35 @@
+public class Automobil {
+
+    int NumOfDoors;
+    int Horsepower;
+    String brand;
+    String model;
+    String colour;
+
+    public void honk() {
+        System.out.println("tiiiiiiiiit");
+
+    }
+}
+    class Car extends Automobil {
+        int vin;
+
+        public void honk() {
+            System.out.println("tuut");
+        }
+
+        public static void main(String[] args) {
+            Car a =new Car();
+            a.honk();
+            a.vin=12213124;
+            a.brand="bmw";
+            a.model ="320i";
+            a.colour = "black";
+            a.Horsepower = 177;
+            a.NumOfDoors = 5;
+
+            Automobil b = new Automobil();
+            b.honk();
+        }
+    }
+
