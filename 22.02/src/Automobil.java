@@ -21,7 +21,7 @@ public class Automobil {
         public static void main(String[] args) {
             Car a =new Car();
             a.honk();
-            a.vin=12213124;
+            a.vin=12213125;
             a.brand="bmw";
             a.model ="320i";
             a.colour = "black";
