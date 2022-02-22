@@ -7,7 +7,7 @@ public class Automobil {
     String colour;
 
     public void honk() {
-        System.out.println("tiiiiiiiiit");
+        System.out.println("honk, honk");
 
     }
 }
@@ -15,7 +15,7 @@ public class Automobil {
         int vin;
 
         public void honk() {
-            System.out.println("tuut");
+            System.out.println("hoooooooooonk");
         }
 
         public static void main(String[] args) {
